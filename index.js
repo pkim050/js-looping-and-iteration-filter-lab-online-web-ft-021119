@@ -5,19 +5,7 @@ function findMatching(drivers, name) {
 }
 
 function fuzzyMatch(drivers, characters) {
-  const newDrivers = [];
-  let counter = 0;
-  for (const driver of drivers) {
-    for (let i = 0; i < characters.length; i++) {
-      if (characters[i] === driver[i]) {
-        counter++;
-      }
-    }
-    if (counter - characters.length === 0) {
-      newDrivers.push(driver);
-    }
-    counter = 0;
-  }
+  const newDrivers = drivers.filter(driver => driver.slice(0, characters.length).toLowerCase() === characters.toLowerCase());
   return newDrivers;
 }
 
@@ -26,11 +14,6 @@ function cb(hash, name) {
 }
 
 function matchName(drivers, name) {
-  const newDrivers = [];
-  for (const driver of drivers) {
-    if (cb(driver, name)) {
-      newDrivers.push(driver);
-    }
-  }
+  const newDrivers = drivers.filter(driver => cb(driver, name));
   return newDrivers;
 }
