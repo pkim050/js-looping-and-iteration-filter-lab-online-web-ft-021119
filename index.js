@@ -21,7 +21,7 @@ function fuzzyMatch(drivers, characters) {
   return newDrivers;
 }
 function cb(hash, name) {
-  return hash.name === name; 
+  return hash.name === name;
 }
 
 function matchName(drivers, name) {
