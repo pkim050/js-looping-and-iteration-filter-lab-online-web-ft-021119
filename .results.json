@@ -1,0 +1,116 @@
+{
+  "stats": {
+    "suites": 4,
+    "tests": 7,
+    "passes": 7,
+    "pending": 0,
+    "failures": 0,
+    "start": "2019-05-27T05:38:29.787Z",
+    "end": "2019-05-27T05:38:30.362Z",
+    "duration": 575
+  },
+  "tests": [
+    {
+      "title": "returns all drivers that match the passed in name",
+      "fullTitle": "index.js findMatching() returns all drivers that match the passed in name",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns matching drivers if case does not match but letters do",
+      "fullTitle": "index.js findMatching() returns matching drivers if case does not match but letters do",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns an empty array if there is no match",
+      "fullTitle": "index.js findMatching() returns an empty array if there is no match",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns a driver if beginning provided letters match",
+      "fullTitle": "index.js fuzzyMatch() returns a driver if beginning provided letters match",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not return drivers if only middle or ending letters match",
+      "fullTitle": "index.js fuzzyMatch() does not return drivers if only middle or ending letters match",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not return drivers if only middle or ending letters match",
+      "fullTitle": "index.js fuzzyMatch() does not return drivers if only middle or ending letters match",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "accesses the data structure to check if name matches",
+      "fullTitle": "index.js matchName() accesses the data structure to check if name matches",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "returns all drivers that match the passed in name",
+      "fullTitle": "index.js findMatching() returns all drivers that match the passed in name",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns matching drivers if case does not match but letters do",
+      "fullTitle": "index.js findMatching() returns matching drivers if case does not match but letters do",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns an empty array if there is no match",
+      "fullTitle": "index.js findMatching() returns an empty array if there is no match",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns a driver if beginning provided letters match",
+      "fullTitle": "index.js fuzzyMatch() returns a driver if beginning provided letters match",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not return drivers if only middle or ending letters match",
+      "fullTitle": "index.js fuzzyMatch() does not return drivers if only middle or ending letters match",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "does not return drivers if only middle or ending letters match",
+      "fullTitle": "index.js fuzzyMatch() does not return drivers if only middle or ending letters match",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "accesses the data structure to check if name matches",
+      "fullTitle": "index.js matchName() accesses the data structure to check if name matches",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
